@@ -39,7 +39,7 @@ def fetch_results(question,number):
   headers = {
       "accept": "application/json",
       "content-type": "application/json",
-      "x-api-key": "23588e3d-28e8-464c-afd6-b9cddd68f10e"
+      "x-api-key": #need to add your key
   }
 
   response = requests.post(url, json=payload, headers=headers)
